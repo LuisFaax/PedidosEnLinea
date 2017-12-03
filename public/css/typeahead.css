@@ -1,0 +1,84 @@
+/**
+ * Author: Tamil selvan K
+ */
+
+#globalContainer {
+  margin: 5px auto 0px auto;
+  max-width: 900px;
+}
+
+.twitter-typeahead {
+  width: 100%;
+}
+
+/** typeahead override styles */
+
+.tt-menu {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  background-color: white;
+}
+
+div.tt-dataset .tt-suggestion:last-child {
+  border-bottom: 0px !important;
+}
+
+.tt-suggestion {
+  padding: 3px;
+  margin: 2px;
+  border-bottom: 1px solid lightgray;
+}
+
+.tt-suggestion:hover {
+  cursor: pointer;
+}
+
+.tt-dataset {
+  border-bottom: 4px solid #f6f7f8;
+}
+
+/** Custom modifications and styles */
+
+.selection-header {
+  border-radius: 4px;
+}
+
+.selection-footer {
+  border-radius: 4px;
+}
+
+.suggestion-header {
+  color: #b6b6b6;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 2px 5px;
+}
+
+.meta-info {
+  font-size: 13px;
+  color: #b6b6b7;
+}
+
+.meta-img {
+  width: 36px;
+  height: 36px;
+  float: left;
+  margin-right: 8px;
+}
+
+.search-icon {
+  top: -25px;
+  float: right;
+  padding: 0px 10px;
+}
+
+.popular-search-icon {
+  background-color: #4F85E8;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 8px;
+  color: white;
+  margin-right: 5px;
+}
