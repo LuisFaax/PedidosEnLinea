@@ -31,4 +31,6 @@ Sistema web para gestión de pedidos en línea
 * php artisan migrate:install
 * php artisan migrate:refresh
 * Finalmente registrar un usuario y setearlo como Admin para la administración
-** Para enviar correos desde una cuenta gmail, es necesario activar: Allow less secure apps: YES
+
+**Para enviar correos desde una cuenta gmail**
+*Es necesario activar: Allow less secure apps: YES
