@@ -33,4 +33,4 @@ Sistema web para gestión de pedidos en línea
 * Finalmente registrar un usuario y setearlo como Admin para la administración
 
 **Para enviar correos desde una cuenta gmail**
-*Es necesario activar: Allow less secure apps: YES
+* Es necesario activar: Allow less secure apps: YES
