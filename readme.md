@@ -28,10 +28,10 @@ Sistema web para gestión de pedidos en línea
 * Renombrar el archivo .env.example a .env y configurar la conexión a la base de datos MySQL
 * Configurar en .env los datos para la gestión de envío de correos: MAIL_DRIVER=smtp MAIL_HOST=smtp.gmail.com MAIL_PORT=587 MAIL_USERNAME=tu email MAIL_PASSWORD=tu clave MAIL_ENCRYPTION=tls
 * Composer update
-* php artisan migrate:install
+* php artisan migrate
 * php artisan db:seed
 * php artisan key:generate
-* Finalmente registrar un usuario y setearlo como Admin para la administración
+* En caso de no generar los seed registrar un usuario y setearlo directamente en la tabla como Admin para la administración
 
 **Para enviar correos desde una cuenta gmail**
 * Es necesario activar: Allow less secure apps: YES
