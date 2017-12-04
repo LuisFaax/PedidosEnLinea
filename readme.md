@@ -30,6 +30,8 @@ Sistema web para gestión de pedidos en línea
 * Composer update
 * php artisan migrate:install
 * php artisan migrate:refresh
+* php artisan db:seed
+* php artisan key:generate
 * Finalmente registrar un usuario y setearlo como Admin para la administración
 
 **Para enviar correos desde una cuenta gmail**
